@@ -1,0 +1,11 @@
+body { background-color:#DDD9CE;
+	margin: 17px;
+	border: 2px solid #610C27;
+	padding: 10px;
+	}
+.txtall { text-align: center;
+	font-family: Old English Text MT;
+	color: #610C27;
+	}
+.difmargin { margin: 10px 200px 20px 200px;
+	}
