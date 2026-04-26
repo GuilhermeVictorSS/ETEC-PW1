@@ -1,0 +1,82 @@
+html {
+	scroll-behavior:smooth; /*Desliza suavemente de uma parte do site à outra-*/
+}
+body { 
+	background-color: #DDD9CE;
+	margin: 0px;
+	}
+.bar {
+	background-color: #610C27;
+	text-align: center;
+	font-family: Old English Text MT;
+	padding: 14px;
+}
+.bar a {
+	text-decoration: none; /*Tira o sublinhado do link*/
+	font-size: 20px;
+}
+.bar a:link {
+	color: #FBF9F2;
+}
+.bar a:active {
+	color: #FBF9F2;
+}
+.bar a:visited {
+	color: #FBF9F2;
+}
+.bar a:hover {
+	color: #FBF9F2;
+}
+
+.part1 { 
+	background-color:#DDD9CE;
+	margin: 17px; 
+	border: 2px solid #610C27;
+	padding: 10px;
+	}
+.txtall { 
+	text-align: center;
+	font-family: Old English Text MT;
+	color: #610C27;
+	}
+.difmargin { 
+	margin: 10px 200px 20px 200px;
+	}
+.logoimg {
+	heigh:200px;
+	width:300px;
+	display: block;
+	margin:auto;
+	transition: transform 0.9s ease; /*Configurações para o hover ( acontecerá de forma suave )*/
+	}
+.logoimg:hover {
+	transform:scale(1.2);/*configurações do hover*/
+}
+
+.part2 { 
+	margin: 17px;
+	background-color: #610C27;
+	padding: 10px;
+	border-radius: 10px;
+}
+.textall2 { 
+	text-align: center;
+	font-family: Old English Text MT;
+	color: #FBF9F2;
+	}
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+ 	gap: 150px;/*espaçamento horizontal*/
+  	justify-content: center;/*Configuração para que dois itens fiquem centralizados e alinhados na mesma linha*/
+.ft {
+	height: 200px;
+	width: 300px;
+	border-radius: 10px;
+	display: block;
+	margin:auto;
+	transition: transform 0.9s ease;/*Configurações do segundo hover suave*/
+}
+.ft:hover {
+	transform:scale(1.1);/*Mudança de tamanho pelo hover*/
+}
