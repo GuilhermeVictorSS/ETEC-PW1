@@ -1,0 +1,33 @@
+body {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.ttl {
+	background-color:black;
+	border: 30px solid black;
+}
+.img1 {
+	heigh:200px;
+	width:300px;
+	display: block;
+	margin:auto;
+	transition: transform 2s ease;
+}
+
+.img1:hover {
+	transform:scale(1.2);
+}
+
+.trlr {
+	background-color:black;
+}
+
+.vid {
+	height: 80%;
+	width: 100%;
+	display: block;
+	margin:auto;
+
+}
