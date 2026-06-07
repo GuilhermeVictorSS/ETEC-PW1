@@ -87,3 +87,51 @@
     text-decoration: none;
 }
 
+.page2 a:link {
+    color: rgb(255, 226, 212);
+}
+.page2 a:active {
+	color: rgb(255, 226, 212);
+}
+.page2 a:visited {
+	color: rgb(255, 226, 212);
+}
+.page2 a:hover {
+	color: rgb(124, 93, 78);
+}
+
+.page3 {
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    margin: 20px;
+    border: 1px solid rgb(212, 229, 255);
+    padding: 20px 60px 60px 60px;
+    transition: border-radius 2s ease;
+    font-family: Old English Text MT;
+    color: rgb(212, 229, 255);
+}
+
+.page3:hover {
+    border-radius: 20px;
+}
+
+.page3 a {
+    text-decoration: none;
+}
+
+.page3 a:link {
+    color: rgb(212, 229, 255);
+}
+.page3 a:active {
+	color: rgb(212, 229, 255);
+}
+.page3 a:visited {
+	color: rgb(212, 229, 255);
+}
+.page3 a:hover {
+	color: rgb(35, 47, 65);
+}
+
