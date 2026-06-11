@@ -1,0 +1,27 @@
+html {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: darkred;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+body h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #303030;
+}
+
+.news {
+    padding: 1% 5% 5% 5%;
+}
+
+.news h1 {
+    text-align: center;
+}
