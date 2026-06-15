@@ -26,7 +26,7 @@
 }
 
 .img1 {
-    width: 25%;
+    width: 20%;
     height: 10%;
     transition: transform 2.2s ease;
 }
@@ -36,7 +36,7 @@
 }
 
 .img2 {
-    width: 10%;
+    width: 7%;
     height: 7%;
     transition: transform 2s ease, filter 2s ease;
 }
@@ -250,4 +250,21 @@
 
 .txtmargin {
     margin:0% 30% 0% 30%;
+}
+
+.pginicial a {
+    text-decoration: none;
+}
+
+.pginicial a:link {
+    color: rgb(255, 255, 255);
+}
+.pginicial a:active {
+	color: rgb(255, 255, 255);
+}
+.pginicial a:visited {
+	color: rgb(255, 255, 255);
+}
+.pginicial a:hover {
+	color: rgb(107, 107, 107);
 }
