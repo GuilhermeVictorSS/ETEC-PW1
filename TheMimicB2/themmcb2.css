@@ -212,3 +212,42 @@
 .page5 a:hover {
 	color: rgb(201, 160, 135);
 }
+
+.pginicial {
+    background-color: #161616;
+    margin: 2%;
+    border: 1px solid white;
+    padding: 1% 2% 2% 2%;
+    font-family: Old English Text MT;
+    color: white;
+    text-align: center;
+}
+
+.JeWhite {
+    display: block;
+    margin: auto;
+    width: 7%;
+    height: 7%;
+    transition: transform 1s ease;
+}
+
+.JeWhite:hover {
+    transform: scale(1.2);
+}
+
+.ThMiWhite {
+    width: 20%;
+    height: 10%;
+    transition: transform 1s ease;
+    display: block;
+    margin: auto;
+}
+
+.ThMiWhite:hover {
+
+    transform: scale(1.1);
+}
+
+.txtmargin {
+    margin:0% 30% 0% 30%;
+}
