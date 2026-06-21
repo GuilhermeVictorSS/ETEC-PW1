@@ -1,4 +1,4 @@
-.mainmenu {
+.mainmenu { /*Background do menu de capítulos*/
     margin: 0px;
     background-image: url(bg.jpg);
     background-size: cover;
@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-.menu {
+.menu { /*Configurações do texto e borda*/
     font-family: Old English Text MT;
     color: #262626;
     text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .menu:hover {
-    border-color: rgb(196, 0, 0);
+    border-color: rgb(39, 39, 39);
     border-radius: 20px;
 }
 
@@ -25,9 +25,9 @@
     margin: auto;
 }
 
-.img1 {
+.img1 { /*Configurações para o título aparente e suas animações*/
     width: 20%;
-    height: 10%;
+    height: 20%;
     transition: transform 2.2s ease;
 }
 
@@ -41,12 +41,12 @@
     transition: transform 2s ease, filter 2s ease;
 }
 
-.img2:hover {
+.img2:hover { /*transição para vermelho*/
     filter: saturate(7467%) hue-rotate(0deg) brightness(100%) contrast(107%);
     transform: scale(1.2);
 }
 
-.chapters img {
+.chapters img { /*Configuração das imagens presentes na página menu*/
     width: 200px;
     height: 110px;
     border-radius: 5px;
@@ -58,6 +58,15 @@
     filter: brightness(270%)
 }
 
+video { /*Configuração do vídeo do trailer*/
+    transition: transform 1s ease, filter 1s ease;
+}
+
+video:hover {
+    transform: scale(1.1);
+    filter: brightness(270%)
+}
+
 .chapters {
     display: flex;
     align-items: center;
@@ -65,7 +74,7 @@
     gap: 50px;
 }
 
-.page2 {
+.page2 { /*Estilização da página Capítulo 1, TODAS AS PÁGINAS DOS CAPÍTULOS 1-4 POSSUEM CSS SEMELHANTE*/
     background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -83,7 +92,7 @@
     border-radius: 20px;
 }
 
-.page2 a {
+.page2 a {  /*CSS para os links*/
     text-decoration: none;
 }
 
@@ -100,7 +109,7 @@
 	color: rgb(124, 93, 78);
 }
 
-.page3 {
+.page3 {    /*CSS da página Capítulo 2*/
     background-image: url(bg3.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -114,11 +123,11 @@
     color: rgb(236, 244, 255);
 }
 
-.page3:hover {
+.page3:hover {  
     border-radius: 20px;
 }
 
-.page3 a {
+.page3 a {  /*CSS dos links*/
     text-decoration: none;
 }
 
@@ -135,7 +144,7 @@
 	color: rgb(152, 172, 201);
 }
 
-.page4 {
+.page4 {    /*CSS da página capítulo 3*/
     background-image: url(bg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +158,7 @@
     color: rgb(255, 237, 237);
 }
 
-.page4 ul {
+.page4 ul { /*CSS dos links & Lista*/
     list-style: none;
 }
 
@@ -174,7 +183,7 @@
 	color: rgb(173, 125, 125);
 }
 
-.page5 {
+.page5 {    /*CSS da página Capítulo 4*/
     background-image: url(bg5.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -188,7 +197,7 @@
     color: rgb(255, 239, 229);
 }
 
-.page5 ul {
+.page5 ul {  /*CSS dos links & lista*/
     list-style: none;
 }
 
@@ -213,7 +222,7 @@
 	color: rgb(201, 160, 135);
 }
 
-.pginicial {
+.pginicial {  /*CSS para a página inicial*/
     background-color: #161616;
     margin: 2%;
     border: 1px solid white;
@@ -223,7 +232,7 @@
     text-align: center;
 }
 
-.JeWhite {
+.JeWhite {   /*Configurações para o título e animação*/
     display: block;
     margin: auto;
     width: 7%;
@@ -248,11 +257,11 @@
     transform: scale(1.1);
 }
 
-.txtmargin {
+.txtmargin {    /*Margem diferente para que o texto fique mais compactado no centro*/
     margin:0% 30% 0% 30%;
 }
 
-.pginicial a {
+.pginicial a {   /*Configuração para os links*/
     text-decoration: none;
 }
 
@@ -267,4 +276,39 @@
 }
 .pginicial a:hover {
 	color: rgb(107, 107, 107);
+}
+
+td { /*CSS dos dados da tabela comuns*/
+    background-color: rgb(235, 235, 235);
+    padding: 5px 3rem 5px 3rem ;
+    width: 10rem;
+    color: black;
+}
+
+.upl { /*Dados da tabela na primeira linha + borda arredondada*/
+    border-radius: 5px 0px 0px 0px;
+    background-color: #424242;
+    color: white;
+}
+
+.upr {
+    border-radius: 0px 5px 0px 0px;
+    background-color: #424242;
+    color: white;
+}
+
+.botr { /*dados da tabela com borda arredondada*/
+    border-radius: 0px 0px 5px 0px;
+}
+
+.botl {
+    border-radius: 0px 0px 0px 5px;
+}
+
+table { /*posição da tabela centralizada horizontalmente*/
+    margin: auto;
+}
+
+audio { /*Áudios centralizados horizontalmente*/
+    margin: auto;
 }
